@@ -57,6 +57,7 @@ ALTER TABLE product DROP COLUMN product_name_pinyin;
 DELETE FROM product WHERE COLUMN_NAME='XXX';
 TRUNCATE TABLE TABLE_NAME;
 
+
 ### 向product表插入数据
 
 CREATE TABLE productins
@@ -123,7 +124,6 @@ DROP TABLE Addressbook;
 
 因此，对数据库进行操作时一定要小心，尤其是使用 `DROP TABLE` 这样的命令。建议定期备份你的数据，以防止数据丢失。
 ```
-
 
 
 
